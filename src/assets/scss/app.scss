@@ -6,8 +6,8 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-//@include foundation-grid;
-//@include foundation-flex-grid;
+@include foundation-grid;
+@include foundation-flex-grid;
 
 @include foundation-xy-grid-classes;
 @include foundation-typography;
@@ -83,3 +83,5 @@
 
 // Custom
 @import "custom/atoms";
+@import "custom/images";
+@import "custom/plugin-overrides/easingslider";

@@ -1,0 +1,22 @@
+// Various Notification CSS
+
+// Header notif
+.row-wide.header-notif {
+    padding: 0;
+}
+
+.row-wide.header-notif .header-notif-content {
+    padding: 1rem;
+    background-color: #FFF07C;
+}
+
+.row-wide.header-notif .header-notif-content p {
+    margin: 0;
+    color: #1F2D3D;
+}
+
+.row-wide.header-notif .header-notif-content a {
+    color: #1F2D3D;
+    text-decoration: underline;
+    font-weight: bold;
+}
