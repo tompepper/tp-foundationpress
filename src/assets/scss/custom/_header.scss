@@ -1,0 +1,88 @@
+// Header customization
+
+// Header background colour
+.top-bar {
+   background-color: #fff;
+   height: 7rem;
+
+   & ul {
+       background-color: #fff;
+   }
+}
+
+
+// Change font colour
+.top-bar .top-bar-title a {
+    color: #222;
+}
+
+
+// Top bar title - Change height for logo
+.top-bar .top-bar-left {
+    height: 100%;
+}
+
+.top-bar-title {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0.5rem 1rem 0.5rem 0;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+// Header replacement logo
+.top-bar .top-bar-title a {
+    color: transparent;
+    background-image: url('http://tompepper.design/wp-content/images/logo-pepper.svg');
+    background-repeat: no-repeat;
+    background-position: 2rem;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+}
+
+
+// Get rid of dividers
+.top-bar .menu li {
+
+    & a {
+        color: #222;
+    }
+
+    &:not(:last-child) {
+        border: none;
+    }
+}
+
+// Change hover colour on menu
+.dropdown.menu .is-active > a {
+    background: #36454f;
+    color: #e6e6e6;
+}
+
+
+.top-bar .menu a:hover:not(.button),
+.top-bar .menu a:active:not(.button) {
+    background-color: #d92231;
+    color: #fff;
+
+    li a {
+      color: #fff;
+    }
+}
+
+
+.dropdown.menu .is-active > a {
+    background-color: #d92231;
+    color: #fff;
+
+    &:hover {
+      background-color: #bb1320;
+    }
+
+    li a {
+      color: #fff;
+    }
+}

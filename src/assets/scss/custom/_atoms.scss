@@ -1,5 +1,14 @@
 // Atoms - Lil thangs for making tings right
 
+// Row wide
+section.row-wide {
+    width:  100%;
+    margin: 0 auto;
+    padding:    3.125rem 0;
+    position:   relative;
+}
+
+
 // Margins
 .margin-left-1p25 {
     margin-left: 1.25em;

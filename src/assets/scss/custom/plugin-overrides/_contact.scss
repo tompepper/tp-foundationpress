@@ -1,0 +1,20 @@
+// Override contact form button styles
+
+.wpcf7-form-control.wpcf7-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    width: 20rem;
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover,
+.wpcf7-form-control.wpcf7-submit:focus {
+    text-decoration: none;
+    background-color: #457a1a;
+}

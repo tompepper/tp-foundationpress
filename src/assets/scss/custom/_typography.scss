@@ -1,0 +1,28 @@
+// Typographic CSS
+
+// Open sans
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+// Page headers
+.row {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+
+    .page-header {
+        border-bottom: 2px solid #d92231;
+        padding-bottom: 1rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .h4-label {
+        text-transform: uppercase;
+        font-size: 0.975rem;
+        letter-spacing: 1px;
+    }
+}
