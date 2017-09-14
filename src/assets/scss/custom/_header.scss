@@ -2,18 +2,15 @@
 
 // Header background colour
 .top-bar {
-   background-color: #fefefe;
-   height: 7rem;
+    background-color: #fefefe;
 
-   & ul {
-       background-color: #fefefe;
-   }
-}
+    @include breakpoint(medium) {
+        height: 7rem;
+    }
 
-
-// Change font colour
-.top-bar .top-bar-title a {
-    color: #222;
+    & ul {
+        background-color: #fefefe;
+    }
 }
 
 
@@ -93,6 +90,11 @@ $menu-item-background-hover: $tp-brand-light;
 
 
 // Mobile menu
+.top-bar .top-bar-left, .top-bar .top-bar-right {
+    z-index: 1;
+}
+
+
 .title-bar {
     background-color: #fff;
 
@@ -101,12 +103,18 @@ $menu-item-background-hover: $tp-brand-light;
     }
 
     & .menu li a {
-        color: #fff;
+        color: #222;
     }
 
     & .menu-icon::after {
         background: $tp-brand-dark;
         box-shadow: 0 7px 0 $tp-brand-dark, 0 14px 0 $tp-brand-dark;
+    }
+}
+
+@include breakpoint(small only) {
+    .top-bar .menu li a {
+        color: #fff;
     }
 }
 
