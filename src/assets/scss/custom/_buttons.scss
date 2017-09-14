@@ -5,17 +5,18 @@
 .button.success {
     width: 20rem;
     max-width: 100%;
-  	background-color: #4CAF50;
   	box-shadow: none;
   	border: none;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     font-weight: 400;
     text-decoration: none;
+    color: #fff;
 
     &:hover,
     &focus {
         text-decoration: none;
+        color: #fff;
     }
 }
 
@@ -25,9 +26,10 @@
 .button.link {
     width: 20rem;
     max-width: 100%;
-  	background-color: #4CAF50;
+  	background-color: #fff;
+    color: #222;
   	box-shadow: none;
-  	border: none;
+  	border: 2px solid #222;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     font-weight: 400;
@@ -37,6 +39,7 @@
     &focus {
         background-color: #222;
         text-decoration: none;
+        color: #fff;
     }
 }
 

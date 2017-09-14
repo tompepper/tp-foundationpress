@@ -2,11 +2,11 @@
 
 // Header background colour
 .top-bar {
-   background-color: #fff;
+   background-color: #fefefe;
    height: 7rem;
 
    & ul {
-       background-color: #fff;
+       background-color: #fefefe;
    }
 }
 
@@ -57,32 +57,80 @@
 }
 
 // Change hover colour on menu
-.dropdown.menu .is-active > a {
-    background: #36454f;
-    color: #e6e6e6;
-}
+$menu-item-color-active: $tp-brand-light;
+$menu-item-background-active: $tp-brand-light;
+$menu-item-background-hover: $tp-brand-light;
 
+.top-bar {
 
-.top-bar .menu a:hover:not(.button),
-.top-bar .menu a:active:not(.button) {
-    background-color: #d92231;
-    color: #fff;
+    & .menu > li:not(.menu-text) .is-submenu-item a {
+        background-color: $tp-brand-dark;
+        color: #fff;
 
-    li a {
-      color: #fff;
+        &:hover {
+            background-color: $tp-brand-light;
+        }
+    }
+
+    .menu a:hover:not(.button) {
+        background-color: $tp-brand-dark;
+        color: #fff;
+
+        &:hover {
+            background-color: $tp-brand-light;
+        }
     }
 }
 
-
 .dropdown.menu .is-active > a {
-    background-color: #d92231;
+    background-color: $tp-brand-light;
     color: #fff;
+}
 
-    &:hover {
-      background-color: #bb1320;
+.menu .active > a {
+    background-color: $tp-brand-medium;
+}
+
+
+// Mobile menu
+.title-bar {
+    background-color: #fff;
+
+    & .site-mobile-title.title-bar-title a {
+        color: #222;
     }
 
-    li a {
-      color: #fff;
+    & .menu li a {
+        color: #fff;
+    }
+
+    & .menu-icon::after {
+        background: $tp-brand-dark;
+        box-shadow: 0 7px 0 $tp-brand-dark, 0 14px 0 $tp-brand-dark;
+    }
+}
+
+.mobile-menu,
+.mobile-off-canvas-menu {
+
+    .menu .is-active > a {
+        background-color: $tp-brand-light;
+        color: #fff;
+    }
+
+    .menu-item {
+        background-color: $tp-brand-dark;
+
+        & a {
+            color: #fff;
+        }
+    }
+
+    .submenu-toggle {
+        background-color: $tp-brand-dark;
+
+        &:after {
+                border-color: #fff transparent transparent;
+        }
     }
 }
