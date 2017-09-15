@@ -13,17 +13,28 @@ body {
       margin-bottom: 1.25rem;
     }
 
+    // Page Header with Red Underline
     .page-header {
-        border-bottom: 2px solid #d92231;
+        border-bottom: 2px solid $tp-brand-medium;
         padding-bottom: 1rem;
         font-weight: 700;
         margin-bottom: 0.5rem;
     }
 
+    // H4 All Caps Subheader
     .h4-label {
         text-transform: uppercase;
         font-size: 0.975rem;
         letter-spacing: 1px;
         margin-bottom: 1.25rem;
     }
+
+    // Giant Header
+    .super-header {
+        font-size: 4rem;
+        line-height: 1;
+        padding-bottom: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
 }
