@@ -1,5 +1,38 @@
 // Header customization
 
+// Front Hero
+
+.front-hero {
+    background-image: url('http://tompepper.design/wp-content/images/tom.jpg');
+
+    & h1 {
+        font-size: 4.875rem;
+        line-height: 1;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+
+    & h3 {
+        color: #fff;
+    }
+}
+
+.front-hero-copy {
+    background-color: rgba(0,0,0,0.65);
+    padding: 2rem;
+    color: #fff;
+
+    a {
+        color: $tp-brand-light;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: $tp-brand-medium;
+    }
+}
+
 // Header background colour
 .top-bar {
     background-color: #fefefe;
@@ -23,7 +56,7 @@
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    margin: 0.5rem 1rem 0.5rem 0;
+    margin: 0;
     height: 100%;
     padding: 1rem;
 }
