@@ -3,7 +3,7 @@
 // Front Hero
 
 .front-hero {
-    background-image: url('http://tompepper.design/wp-content/images/tom.jpg');
+    background-image: url('http://tompepper.design/wp-content/images/tom-2.jpg');
 
     & h1 {
         font-size: 4.875rem;
@@ -24,12 +24,14 @@
 
     a {
         color: $tp-brand-light;
-        text-decoration: underline;
+        border-bottom: 3px solid $tp-brand-light;
         font-weight: 600;
     }
 
     a:hover {
-        color: $tp-brand-medium;
+        color: #fff;
+        border-bottom: 3px solid $tp-brand-medium;
+        background-color: $tp-brand-medium;
     }
 }
 
