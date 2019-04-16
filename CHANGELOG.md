@@ -1,5 +1,161 @@
 # Change Log
 
+## [v2.10.6](https://github.com/olefredrik/FoundationPress/tree/v2.10.6) (2019-04-12)
+
+** Changes **
+- fix foundation-explicit-pieces.js (was broken since foundation-sites@6.5.1)
+- Motion UI updated to latest version
+- foundationpress_pagination() refactored
+
+**Fixed bugs:**
+
+- Using foundation-explicit-pieces.js will not compile [\#1363](https://github.com/olefredrik/FoundationPress/issues/1363)
+
+**Closed issues:**
+- Update Motion UI [\#1363](https://github.com/olefredrik/FoundationPress/issues/1376)
+
+** Merged pull requests: **
+
+- Fixes foundationpress_pagination() - Outputs valid HTML, output matches Foundation's docs. [\#1375](https://github.com/olefredrik/FoundationPress/pull/1372) ([pixelbrad](https://github.com/pixelbrad))
+- Fix foundation-explicit-pieces.js compile error [\#1375](https://github.com/olefredrik/FoundationPress/pull/1375) ([emaia](https://github.com/emaia))
+
+
+## [v2.10.5](https://github.com/olefredrik/FoundationPress/tree/v2.10.5) (2019-04-04)
+
+** Merged pull requests: **
+
+- Small fixes #1161  (@emaia)
+- Revert style changes in 6.4.3 up-to-date #1160 (@olefredrik)
+- Separate grid element from container #1159 (@olefredrik)
+- Revert style changes in 6.4.3 up-to-date #1158 (@colin-marshall)
+- Tiny update gulpfile.babel.js #1155 (@gruenewiese)
+- Update to Foundation for Sites 6.4.3 #1154 (@Aetles)
+- Change the full-width template class to .main-content-full-width #1149 (@colin-marshall)
+- Add Impeach Trump Now site to the showcase #1139 (@olefredrik)
+- Reintroduce WPCS without Travis #1131 (@colin-marshall)
+- Reintroduce package task #1130 (@colin-marshall)
+- Fix php error in asset_path function #1129 (@JPOak)
+- Combine asset path function. Much prettier. #1126 (@JPOak)
+- Remove data attribute for sticky footer #1125 (@olefredrik)
+- update jqmigrate to be compatible with jquery version used #1244 (@farlandlee)
+- Fix image alignment bug discussed in #1237. #1239 (@JPOak)
+- Wordpress gallery: Added css and custom markup #1234 (@emaia)
+- Update package-lock.json file to sync up with package.json . #1233 (@JPOak)
+- translate(urdu): mo, po file #1226 (@adeelshahid)
+- Removed underscore from accessibility import in app.scss #1222 (@colin)
+- Make topbar default if mobile nav setting isn't already defined #1220 (@colin)
+- Remove reference to gutil in gulpfile #1213 (@dgobnto)
+- Replace deprecated gulp-util with ansi-colors and fancy-log #1212 (@colin)
+- Added path for php and scss file changes/removals to console output. feature request #1210 (@colin)
+- Refine Webpack watch + build functions #1205 (@conorbarclay)
+- Adds Hungarian translation. #1201 (@belamezey)
+- Bumped bablel-loader, webpack, and webpack-stream in package.json #1196 (@colin)
+- Fix typo #1194 (@dgobnto)
+- Fix footer container. #1180 #1189 (@JPOak)
+- Remove demosite script #1188 (@olefredrik)
+- Fix unclosed anchor tag in Dutch translation #1183 (@tiborp)
+- Code cleanup #1178 (@Aetles)
+- Remove stray ‘[‘ and update single.php sidebar indentation #1176 (@giollianosulit)
+- Update package-lock.json file with updated Foundation version. #1175 (@JPOak)
+- Improvements + Consistency updates in code indentation across multiple php files #1173 (@giollianosulit)
+- Optimize JavaScript tasks #1169 (@conorbarclay)
+- Fix asset exclusion globbing pattern #1168 (@conorbarclay)
+- Adding aria-label attribute to mobile menu hamburger button #1166 (@aldavigdis)
+- Adding Icelandic localisation #1165 (@aldavigdis)
+- Clean up showcase - sites made with FP  #1361 (@olefredrik)
+- Update footer.php  #1359 (@dgobnto)
+- Remove extra line  #1358 (@dgobnto)
+- vulnerabilities fixed  #1354 (@derweili)
+- Dependency updates / Security fixes  #1353 (@derweili)
+- Add Persian language file  #1348 (@mojtaba)
+- Travis ci  #1345 (@derweili)
+- Foundation 6.5.1 #1344 (@derweili)
+- Main file changed to gulpfile.babel.js #1342 (@derweili)
+- Sentence correction #1337 (@thisisbhaven)
+- Gutenberg Support #1331 (@derweili)
+- Update package.json #1327 (@dantahoua)
+- Add aria label to the search form to assist in accessibility #1308 (@joshsmith01)
+- Add container to index.php to match other default page templates #1299 (@colin-marshall)
+- Licence Badge Updated #1297 (@derweili)
+- Comments template cleaned up and refactored #1296 (@derweili)
+- Fix image watcher copying images + reloading browser. Bump gulp-imagemin to 4.1.0. #1287 (@pixelbrad)
+- Watch task to handle SVG files #1281 (@derweili)
+- added russian language #1278 (@dzmitROCK)
+- Add La revanche des sites to showcase #1261 (@bqst)
+- use get_stylesheet_directory_uri to support usage as childtheme #1260 (@derweili)
+- Replace deprecated log call #1257 (@hibernius)
+- Add default breakpoint for smaller screen sizes to footer widget area. #1251 #1255 (@JPOak)
+- Code cleanup while loop page.php #1253 (@dgobnto)
+- fix: update webpack exclude rules for Windows compatibility #1250 (@colin-marshall)
+
+
+## [v2.10.4](https://github.com/olefredrik/FoundationPress/tree/v2.10.4) (2017-10-11)
+[Full Changelog](https://github.com/olefredrik/FoundationPress/compare/v2.10.3...v2.10.4)
+
+**Fixed bugs:**
+
+- WooCommerce Sidebar issues [\#1057](https://github.com/olefredrik/FoundationPress/issues/1057)
+
+**Closed issues:**
+
+- Responsive $grid-margin-gutters only work when XY-cell is included with a breakpoint [\#1121](https://github.com/olefredrik/FoundationPress/issues/1121)
+- Basic grid not working? [\#1117](https://github.com/olefredrik/FoundationPress/issues/1117)
+- Saving php file causes loss of sass changes in BrowserSync [\#1113](https://github.com/olefredrik/FoundationPress/issues/1113)
+- Where do I put JS files so they are added to the /dist/ folder? [\#1108](https://github.com/olefredrik/FoundationPress/issues/1108)
+- Old "NPM run build" method..... [\#1107](https://github.com/olefredrik/FoundationPress/issues/1107)
+- Override WooCommerce styles [\#1106](https://github.com/olefredrik/FoundationPress/issues/1106)
+- check-if-sidebar-exist.php  Is this used anymore? [\#1103](https://github.com/olefredrik/FoundationPress/issues/1103)
+- XY Grid offsets don't include margin or padding [\#1099](https://github.com/olefredrik/FoundationPress/issues/1099)
+- Removing before and after hooks... [\#1097](https://github.com/olefredrik/FoundationPress/issues/1097)
+- Sticky Footer JS Missing [\#1095](https://github.com/olefredrik/FoundationPress/issues/1095)
+- Content in Single.php [\#1094](https://github.com/olefredrik/FoundationPress/issues/1094)
+- error on npm start [\#1093](https://github.com/olefredrik/FoundationPress/issues/1093)
+- Error While npm install -g gulp [\#1092](https://github.com/olefredrik/FoundationPress/issues/1092)
+- Semantically incorrect use of article elements [\#1091](https://github.com/olefredrik/FoundationPress/issues/1091)
+- Npm start error  [\#1089](https://github.com/olefredrik/FoundationPress/issues/1089)
+- Breadcrumbs error \(custom post types/taxonomies\) [\#1088](https://github.com/olefredrik/FoundationPress/issues/1088)
+- Pagination showing same content [\#1087](https://github.com/olefredrik/FoundationPress/issues/1087)
+- Update configuration process [\#1083](https://github.com/olefredrik/FoundationPress/issues/1083)
+- Remove woocommerce hooks in cleanup.php.. [\#1082](https://github.com/olefredrik/FoundationPress/issues/1082)
+- Article elements for widgets in sidebar and footer.. [\#1078](https://github.com/olefredrik/FoundationPress/issues/1078)
+- How to get the breakpoint variable value from \_settings.scss [\#1077](https://github.com/olefredrik/FoundationPress/issues/1077)
+- Conflict with Gravityforms - jQuery is not defined [\#1076](https://github.com/olefredrik/FoundationPress/issues/1076)
+- Stick with 2.9 or tweak 2.10 for compatibility? [\#1075](https://github.com/olefredrik/FoundationPress/issues/1075)
+- Error in plugin: 'sass' after changing values in \_settings.scss [\#1074](https://github.com/olefredrik/FoundationPress/issues/1074)
+- Stop combine admin enqueue JavaScript into one file or add ignore options [\#1073](https://github.com/olefredrik/FoundationPress/issues/1073)
+- Dropdown Links Not Working - Tablet [\#1072](https://github.com/olefredrik/FoundationPress/issues/1072)
+- Add javascript file  [\#1069](https://github.com/olefredrik/FoundationPress/issues/1069)
+- WooCommerce 3.0 - Hidden products showing in search results [\#1068](https://github.com/olefredrik/FoundationPress/issues/1068)
+- Rename & fix path file [\#1067](https://github.com/olefredrik/FoundationPress/issues/1067)
+- missing textdomains  [\#1066](https://github.com/olefredrik/FoundationPress/issues/1066)
+- Npm start not watching css modifications [\#1064](https://github.com/olefredrik/FoundationPress/issues/1064)
+- template-specific sass styles [\#1062](https://github.com/olefredrik/FoundationPress/issues/1062)
+- \#footer-container Issues [\#1060](https://github.com/olefredrik/FoundationPress/issues/1060)
+- Console error: Uncaught SyntaxError: Unexpected token import [\#1051](https://github.com/olefredrik/FoundationPress/issues/1051)
+- WP built-in post tags [\#851](https://github.com/olefredrik/FoundationPress/issues/851)
+
+**Merged pull requests:**
+
+- Remove data attribute for sticky footer [\#1125](https://github.com/olefredrik/FoundationPress/pull/1125) ([olefredrik](https://github.com/olefredrik))
+- Update README.md to reflect JavaScript changes [\#1119](https://github.com/olefredrik/FoundationPress/pull/1119) ([colin-marshall](https://github.com/colin-marshall))
+- Move rev constant to config file [\#1116](https://github.com/olefredrik/FoundationPress/pull/1116) ([JPOak](https://github.com/JPOak))
+- Add info about static asset hashing in readme [\#1115](https://github.com/olefredrik/FoundationPress/pull/1115) ([olefredrik](https://github.com/olefredrik))
+- Static Asset Hashing [\#1114](https://github.com/olefredrik/FoundationPress/pull/1114) ([JPOak](https://github.com/JPOak))
+- Remove unused sidebar template part. [\#1104](https://github.com/olefredrik/FoundationPress/pull/1104) ([JPOak](https://github.com/JPOak))
+- Remove template hooks. [\#1102](https://github.com/olefredrik/FoundationPress/pull/1102) ([JPOak](https://github.com/JPOak))
+- Update it\_IT.po [\#1101](https://github.com/olefredrik/FoundationPress/pull/1101) ([cipo28](https://github.com/cipo28))
+- Target section instead of article in footer [\#1100](https://github.com/olefredrik/FoundationPress/pull/1100) ([olefredrik](https://github.com/olefredrik))
+- Templating changes... [\#1098](https://github.com/olefredrik/FoundationPress/pull/1098) ([JPOak](https://github.com/JPOak))
+- Remove breadcrumbs [\#1096](https://github.com/olefredrik/FoundationPress/pull/1096) ([JPOak](https://github.com/JPOak))
+- remove woocommerce hooks. [\#1086](https://github.com/olefredrik/FoundationPress/pull/1086) ([JPOak](https://github.com/JPOak))
+- package.json updates [\#1085](https://github.com/olefredrik/FoundationPress/pull/1085) ([colin-marshall](https://github.com/colin-marshall))
+- Update config process [\#1084](https://github.com/olefredrik/FoundationPress/pull/1084) ([colin-marshall](https://github.com/colin-marshall))
+- Widget area element change. Small spelling correction. [\#1081](https://github.com/olefredrik/FoundationPress/pull/1081) ([JPOak](https://github.com/JPOak))
+- Added text domain to comment awaiting moderation message [\#1071](https://github.com/olefredrik/FoundationPress/pull/1071) ([colin-marshall](https://github.com/colin-marshall))
+- Updated editor styles to match new app.css path [\#1070](https://github.com/olefredrik/FoundationPress/pull/1070) ([colin-marshall](https://github.com/colin-marshall))
+- Typo fixed [\#1065](https://github.com/olefredrik/FoundationPress/pull/1065) ([derweili](https://github.com/derweili))
+- Fixed kitchen sink grid update [\#1063](https://github.com/olefredrik/FoundationPress/pull/1063) ([colin-marshall](https://github.com/colin-marshall))
+
 ## [v2.10.3](https://github.com/olefredrik/FoundationPress/tree/v2.10.3) (2017-08-29)
 [Full Changelog](https://github.com/olefredrik/FoundationPress/compare/v2.10.2...v2.10.3)
 
@@ -177,7 +333,7 @@
 - Remove search query from current breadcrumb class [\#995](https://github.com/olefredrik/FoundationPress/pull/995) ([conorbarclay](https://github.com/conorbarclay))
 - Kitchen Sink Updated [\#988](https://github.com/olefredrik/FoundationPress/pull/988) ([marcusconnor](https://github.com/marcusconnor))
 - Optimize CSS & Sync with Vanilla Foundation [\#987](https://github.com/olefredrik/FoundationPress/pull/987) ([EricRihlmann](https://github.com/EricRihlmann))
-- Fix Category page breadcrumb [\#984](https://github.com/olefredrik/FoundationPress/pull/984) ([roby94](https://github.com/roby94))
+- Fix Category page breadcrumb [\#984](https://github.com/olefredrik/FoundationPress/pull/984) ([RobertoCorreale](https://github.com/RobertoCorreale))
 - Fix Off-Canvas Menu Bug [\#980](https://github.com/olefredrik/FoundationPress/pull/980) ([EricRihlmann](https://github.com/EricRihlmann))
 - Update Pagination Centered [\#979](https://github.com/olefredrik/FoundationPress/pull/979) ([codenamesrk](https://github.com/codenamesrk))
 - Removed broken links [\#978](https://github.com/olefredrik/FoundationPress/pull/978) ([millerdrew](https://github.com/millerdrew))

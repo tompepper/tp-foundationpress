@@ -6,8 +6,8 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-@include foundation-grid;
-@include foundation-flex-grid;
+//@include foundation-grid;
+//@include foundation-flex-grid;
 
 @include foundation-xy-grid-classes;
 @include foundation-typography;
@@ -59,10 +59,11 @@
 */
 
 // Global
-@import "global/_accessibility";
+@import "global/accessibility";
 @import "global/colors";
 @import "global/wp-admin";
 @import "global/wp-overrides";
+@import "global/gutenberg";
 
 // Modules
 @import "modules/navigation";
@@ -80,19 +81,3 @@
 // Templates
 @import "templates/front";
 @import "templates/kitchen-sink";
-
-// Custom
-@import "custom/colours";
-@import "custom/atoms";
-@import "custom/images";
-@import "custom/typography";
-@import "custom/buttons";
-@import "custom/notifications";
-@import "custom/borders";
-@import "custom/shadows";
-@import "custom/footer";
-@import "custom/header";
-@import "custom/fonts/tp-foundationpress-icons";
-@import "custom/animations/anim-link";
-@import "custom/plugin-overrides/easingslider";
-@import "custom/plugin-overrides/contact";
